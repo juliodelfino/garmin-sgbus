@@ -1,0 +1,42 @@
+<layouts>
+	<layout id="MainLayout">
+	    <label id="timenow" x="center" y="top" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="line0" x="center" y="35" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="line1" x="center" y="55" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="line2" x="center" y="75" text="@Strings.searchingGps" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="line3" x="center" y="95" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		<label id="line4" x="center" y="115" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		<label id="line5" x="center" y="135" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		<label id="line6" x="center" y="155" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		<label id="line7" x="center" y="175" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		<label id="line8" x="center" y="195" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	</layout>
+	<layout id="BusStopLayout">
+	    <label id="timenow" x="center" y="top" text="00:12:21" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="busId" x="center" y="45" text="14141" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="busName" x="center" y="75" text="Harbourfront Centre" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="bus0" x="45" y="125" text="@Strings.searchingGps" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="bus1" x="45" y="145" text="@Strings.searchingGps" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="bus2" x="45" y="165" text="@Strings.searchingGps" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="bus3" x="45" y="185" text="@Strings.searchingGps" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+	</layout>
+	<layout id="BusStopLayout2">
+	    <label id="bus0" x="45" y="45" text="@Strings.prompt" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="bus1" x="45" y="65" text="@Strings.prompt" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="bus2" x="45" y="85" text="@Strings.prompt" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="bus3" x="45" y="105" text="@Strings.searchingGps" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="bus4" x="45" y="125" text="@Strings.prompt" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="bus5" x="45" y="145" text="@Strings.prompt" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="bus6" x="45" y="165" text="@Strings.prompt" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+	    <label id="bus7" x="45" y="185" text="@Strings.prompt" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+	</layout>
+	<layout id="FavoritesLayout">
+	    <label id="timenow" x="center" y="top" text="00:12:21" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <bitmap id="logo" x="center" y="35" filename="../drawables/bus-round-icon.png" />
+	    <label id="fave0" x="45" y="105" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="fave1" x="45" y="125" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="fave2" x="45" y="145" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="fave3" x="45" y="165" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+	    <label id="fave4" x="45" y="185" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+	</layout>
+</layouts>
