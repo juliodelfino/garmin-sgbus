@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/BusStopsMenuDelegate.mc" id="3" lineNum="9" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/BusStopsMenuDelegate.mc" id="3" lineNum="10" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/BusStopsMenuDelegate.mc" id="3" lineNum="11" pc="268435470" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/BusStopsMenuDelegate.mc" id="3" lineNum="12" pc="268435502" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/BusStopsMenuDelegate.mc" id="4" lineNum="15" pc="268435521" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/BusStopsMenuDelegate.mc" id="4" lineNum="16" pc="268435525" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/BusStopsMenuDelegate.mc" id="4" lineNum="17" pc="268435585" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/BusStopsMenuDelegate.mc" id="4" lineNum="18" pc="268435638" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="6" lineNum="13" pc="268435659" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="6" lineNum="14" pc="268435663" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="6" lineNum="15" pc="268435673" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="18" pc="268435702" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="19" pc="268435706" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="20" pc="268435723" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="21" pc="268435742" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="22" pc="268435760" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="23" pc="268435767" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="24" pc="268435774" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="25" pc="268435787" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="27" pc="268435811" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="28" pc="268435818" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="29" pc="268435848" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="32" pc="268435911" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="34" pc="268435950" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="36" pc="268435966" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="7" lineNum="37" pc="268435985" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="8" lineNum="40" pc="268436002" symbol="invokeWebRequestNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="8" lineNum="41" pc="268436006" symbol="invokeWebRequestNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="9" lineNum="47" pc="268436020" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="9" lineNum="48" pc="268436024" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="9" lineNum="49" pc="268436044" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="10" lineNum="52" pc="268436055" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="10" lineNum="53" pc="268436059" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="11" lineNum="56" pc="268436070" symbol="onReceiveMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="11" lineNum="57" pc="268436074" symbol="onReceiveMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="11" lineNum="58" pc="268436085" symbol="onReceiveMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="11" lineNum="59" pc="268436096" symbol="onReceiveMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="11" lineNum="61" pc="268436113" symbol="onReceiveMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="65" pc="268436139" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="66" pc="268436143" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="67" pc="268436153" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="68" pc="268436167" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="69" pc="268436186" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="70" pc="268436204" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="71" pc="268436211" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="72" pc="268436224" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="74" pc="268436248" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="75" pc="268436255" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="76" pc="268436296" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="77" pc="268436326" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="78" pc="268436339" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="79" pc="268436361" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="80" pc="268436368" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="81" pc="268436378" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="83" pc="268436402" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="85" pc="268436412" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="89" pc="268436467" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="90" pc="268436493" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="92" pc="268436572" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="93" pc="268436605" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesViewModel.mc" id="12" lineNum="96" pc="268436641" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="14" lineNum="9" pc="268436668" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="14" lineNum="10" pc="268436672" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="14" lineNum="11" pc="268436690" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="15" lineNum="14" pc="268436705" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="15" lineNum="16" pc="268436709" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="19" pc="268436741" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="21" pc="268436745" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="22" pc="268436764" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="23" pc="268436782" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="24" pc="268436801" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="26" pc="268436825" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="27" pc="268436851" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="28" pc="268436886" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="29" pc="268436902" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="30" pc="268436908" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="31" pc="268436931" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="32" pc="268436960" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="36" pc="268436993" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesManageMenuDelegate.mc" id="16" lineNum="37" pc="268437012" symbol="onDone"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="18" lineNum="18" pc="268437031" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="18" lineNum="19" pc="268437035" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="18" lineNum="20" pc="268437053" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="18" lineNum="21" pc="268437063" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="18" lineNum="22" pc="268437109" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="19" lineNum="25" pc="268437138" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="19" lineNum="26" pc="268437142" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="19" lineNum="27" pc="268437154" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="19" lineNum="28" pc="268437188" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="20" lineNum="32" pc="268437202" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="20" lineNum="33" pc="268437206" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="20" lineNum="34" pc="268437224" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="21" lineNum="37" pc="268437235" symbol="setBusStop"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="21" lineNum="38" pc="268437239" symbol="setBusStop"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="21" lineNum="39" pc="268437249" symbol="setBusStop"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="22" lineNum="42" pc="268437292" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="22" lineNum="43" pc="268437296" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="22" lineNum="44" pc="268437313" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="22" lineNum="45" pc="268437361" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="22" lineNum="47" pc="268437377" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="22" lineNum="48" pc="268437396" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="51" pc="268437413" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="52" pc="268437417" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="53" pc="268437428" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="54" pc="268437438" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="55" pc="268437454" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="56" pc="268437468" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="57" pc="268437481" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="58" pc="268437496" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="60" pc="268437549" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="63" pc="268437583" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="23" lineNum="65" pc="268437645" symbol="onReceiveBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="24" lineNum="68" pc="268437662" symbol="getCurrentView"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="24" lineNum="69" pc="268437666" symbol="getCurrentView"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="25" lineNum="72" pc="268437685" symbol="onNextPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="25" lineNum="73" pc="268437689" symbol="onNextPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="25" lineNum="74" pc="268437708" symbol="onNextPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="25" lineNum="75" pc="268437728" symbol="onNextPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="25" lineNum="77" pc="268437744" symbol="onNextPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="25" lineNum="78" pc="268437776" symbol="onNextPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="26" lineNum="81" pc="268437780" symbol="onPreviousPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="26" lineNum="82" pc="268437784" symbol="onPreviousPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="26" lineNum="83" pc="268437803" symbol="onPreviousPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="26" lineNum="84" pc="268437820" symbol="onPreviousPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="26" lineNum="86" pc="268437845" symbol="onPreviousPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="26" lineNum="87" pc="268437877" symbol="onPreviousPage"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="27" lineNum="90" pc="268437881" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="27" lineNum="92" pc="268437885" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="27" lineNum="93" pc="268437947" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="27" lineNum="94" pc="268437979" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="27" lineNum="95" pc="268437995" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="27" lineNum="96" pc="268438019" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="27" lineNum="97" pc="268438041" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="27" lineNum="106" pc="268438111" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="28" lineNum="109" pc="268438144" symbol="onBack"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="28" lineNum="110" pc="268438148" symbol="onBack"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="28" lineNum="111" pc="268438161" symbol="onBack"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopDelegate.mc" id="28" lineNum="112" pc="268438174" symbol="onBack"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="30" lineNum="7" pc="268438241" symbol="getBusStringInfo"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="30" lineNum="8" pc="268438245" symbol="getBusStringInfo"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="30" lineNum="9" pc="268438289" symbol="getBusStringInfo"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="30" lineNum="10" pc="268438333" symbol="getBusStringInfo"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="32" lineNum="13" pc="268438382" symbol="getMinifiedBusStringInfo"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="32" lineNum="14" pc="268438386" symbol="getMinifiedBusStringInfo"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="32" lineNum="15" pc="268438437" symbol="getMinifiedBusStringInfo"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="32" lineNum="16" pc="268438488" symbol="getMinifiedBusStringInfo"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="32" lineNum="18" pc="268438553" symbol="getMinifiedBusStringInfo"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="33" lineNum="21" pc="268438566" symbol="computeArrivalMins"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="33" lineNum="22" pc="268438570" symbol="computeArrivalMins"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="33" lineNum="23" pc="268438591" symbol="computeArrivalMins"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="33" lineNum="25" pc="268438596" symbol="computeArrivalMins"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="33" lineNum="26" pc="268438606" symbol="computeArrivalMins"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="33" lineNum="27" pc="268438617" symbol="computeArrivalMins"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="33" lineNum="29" pc="268438627" symbol="computeArrivalMins"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="34" lineNum="32" pc="268438631" symbol="getFormattedTimeNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="34" lineNum="34" pc="268438635" symbol="getFormattedTimeNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="34" lineNum="35" pc="268438652" symbol="getFormattedTimeNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="34" lineNum="37" pc="268438652" symbol="getFormattedTimeNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="34" lineNum="38" pc="268438662" symbol="getFormattedTimeNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="34" lineNum="40" pc="268438686" symbol="getFormattedTimeNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="34" lineNum="41" pc="268438712" symbol="getFormattedTimeNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="34" lineNum="42" pc="268438722" symbol="getFormattedTimeNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/Util.mc" id="34" lineNum="44" pc="268438759" symbol="getFormattedTimeNow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="36" lineNum="7" pc="268438820" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="36" lineNum="8" pc="268438824" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="36" lineNum="9" pc="268438870" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="12" pc="268438889" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="13" pc="268438893" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="14" pc="268438912" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="15" pc="268438930" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="16" pc="268438937" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="18" pc="268438948" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="19" pc="268438970" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="21" pc="268438998" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="22" pc="268439017" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="24" pc="268439040" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusSaveMenuDelegate.mc" id="37" lineNum="25" pc="268439084" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="39" lineNum="5" pc="268439104" symbol="makeRequestForBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="39" lineNum="6" pc="268439108" symbol="makeRequestForBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="39" lineNum="8" pc="268439115" symbol="makeRequestForBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="39" lineNum="24" pc="268439172" symbol="makeRequestForBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="41" lineNum="27" pc="268439191" symbol="makeRequestForBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="41" lineNum="28" pc="268439195" symbol="makeRequestForBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="41" lineNum="29" pc="268439202" symbol="makeRequestForBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="41" lineNum="33" pc="268439230" symbol="makeRequestForBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="42" lineNum="37" pc="268439249" symbol="makeRequestForMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="42" lineNum="38" pc="268439253" symbol="makeRequestForMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="42" lineNum="39" pc="268439260" symbol="makeRequestForMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="42" lineNum="43" pc="268439288" symbol="makeRequestForMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="43" lineNum="46" pc="268439307" symbol="makeBusApiRequest"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="43" lineNum="48" pc="268439311" symbol="makeBusApiRequest"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/WebRequestHandler.mc" id="43" lineNum="56" pc="268439393" symbol="makeBusApiRequest"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="45" lineNum="12" pc="268439421" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="45" lineNum="13" pc="268439425" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="46" lineNum="19" pc="268439436" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="46" lineNum="20" pc="268439440" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="46" lineNum="21" pc="268439450" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="46" lineNum="22" pc="268439463" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="46" lineNum="23" pc="268439511" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="46" lineNum="25" pc="268439558" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="47" lineNum="29" pc="268439588" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="47" lineNum="30" pc="268439592" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="48" lineNum="33" pc="268439603" symbol="onPosition"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="48" lineNum="34" pc="268439607" symbol="onPosition"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="48" lineNum="35" pc="268439617" symbol="onPosition"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="48" lineNum="36" pc="268439628" symbol="onPosition"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="48" lineNum="37" pc="268439647" symbol="onPosition"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="48" lineNum="38" pc="268439678" symbol="onPosition"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="48" lineNum="39" pc="268439714" symbol="onPosition"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="49" lineNum="43" pc="268439728" symbol="onReceiveBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="49" lineNum="44" pc="268439732" symbol="onReceiveBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="49" lineNum="45" pc="268439781" symbol="onReceiveBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="49" lineNum="47" pc="268439806" symbol="onReceiveBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="50" lineNum="51" pc="268439838" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="50" lineNum="52" pc="268439842" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="50" lineNum="53" pc="268439856" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="50" lineNum="54" pc="268439876" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="50" lineNum="55" pc="268439909" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="50" lineNum="58" pc="268439945" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/NearbyViewModel.mc" id="50" lineNum="59" pc="268439971" symbol="refreshData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="52" lineNum="12" pc="268439988" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="52" lineNum="13" pc="268439992" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="52" lineNum="14" pc="268440002" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="52" lineNum="15" pc="268440020" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="52" lineNum="16" pc="268440058" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="52" lineNum="17" pc="268440096" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="52" lineNum="19" pc="268440124" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="53" lineNum="22" pc="268440153" symbol="getViewModel"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="53" lineNum="23" pc="268440157" symbol="getViewModel"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="54" lineNum="30" pc="268440173" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="54" lineNum="31" pc="268440177" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="54" lineNum="32" pc="268440206" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="54" lineNum="33" pc="268440240" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="54" lineNum="35" pc="268440264" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="55" lineNum="38" pc="268440286" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="55" lineNum="39" pc="268440290" symbol="timerCallback"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="56" lineNum="46" pc="268440312" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="56" lineNum="47" pc="268440316" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="56" lineNum="48" pc="268440345" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="56" lineNum="50" pc="268440366" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="57" lineNum="54" pc="268440388" symbol="onLayout"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="57" lineNum="55" pc="268440392" symbol="onLayout"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="58" lineNum="58" pc="268440430" symbol="onReceiveMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="58" lineNum="59" pc="268440434" symbol="onReceiveMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="58" lineNum="60" pc="268440445" symbol="onReceiveMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="58" lineNum="62" pc="268440494" symbol="onReceiveMixedBuses"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="59" lineNum="65" pc="268440511" symbol="refreshViewData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="59" lineNum="67" pc="268440515" symbol="refreshViewData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="59" lineNum="68" pc="268440556" symbol="refreshViewData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="59" lineNum="69" pc="268440572" symbol="refreshViewData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="59" lineNum="70" pc="268440592" symbol="refreshViewData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="59" lineNum="71" pc="268440619" symbol="refreshViewData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="59" lineNum="72" pc="268440660" symbol="refreshViewData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="59" lineNum="73" pc="268440687" symbol="refreshViewData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="59" lineNum="74" pc="268440704" symbol="refreshViewData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="60" lineNum="78" pc="268440778" symbol="onReceiveNearbyBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="60" lineNum="79" pc="268440782" symbol="onReceiveNearbyBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="60" lineNum="80" pc="268440793" symbol="onReceiveNearbyBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="60" lineNum="81" pc="268440813" symbol="onReceiveNearbyBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="60" lineNum="84" pc="268440844" symbol="onReceiveNearbyBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="60" lineNum="86" pc="268440879" symbol="onReceiveNearbyBusStops"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="61" lineNum="90" pc="268440896" symbol="onUpdate"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="61" lineNum="92" pc="268440900" symbol="onUpdate"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="61" lineNum="93" pc="268440924" symbol="onUpdate"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesView.mc" id="61" lineNum="95" pc="268440953" symbol="onUpdate"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="63" lineNum="14" pc="268440974" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="63" lineNum="15" pc="268440978" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="63" lineNum="16" pc="268440996" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="63" lineNum="17" pc="268441006" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="63" lineNum="19" pc="268441042" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="63" lineNum="20" pc="268441084" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="64" lineNum="23" pc="268441117" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="65" lineNum="26" pc="268441122" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="66" lineNum="29" pc="268441127" symbol="getModel"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="66" lineNum="30" pc="268441131" symbol="getModel"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="67" lineNum="33" pc="268441141" symbol="setNearbyViewModelAsCurrent"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="67" lineNum="34" pc="268441145" symbol="setNearbyViewModelAsCurrent"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="68" lineNum="37" pc="268441162" symbol="setFavoritesViewModelAsCurrent"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="68" lineNum="38" pc="268441166" symbol="setFavoritesViewModelAsCurrent"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="69" lineNum="41" pc="268441183" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="69" lineNum="43" pc="268441187" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="69" lineNum="44" pc="268441203" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="69" lineNum="45" pc="268441210" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="69" lineNum="47" pc="268441225" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="69" lineNum="49" pc="268441239" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="70" lineNum="52" pc="268441243" symbol="showDefaultMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="70" lineNum="54" pc="268441247" symbol="showDefaultMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="71" lineNum="57" pc="268441292" symbol="showBusStopsMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="71" lineNum="58" pc="268441296" symbol="showBusStopsMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="71" lineNum="59" pc="268441343" symbol="showBusStopsMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="71" lineNum="60" pc="268441356" symbol="showBusStopsMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="71" lineNum="62" pc="268441391" symbol="showBusStopsMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="71" lineNum="63" pc="268441415" symbol="showBusStopsMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="71" lineNum="72" pc="268441528" symbol="showBusStopsMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="72" lineNum="75" pc="268441567" symbol="registerTimerEvent"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="72" lineNum="76" pc="268441571" symbol="registerTimerEvent"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="73" lineNum="79" pc="268441599" symbol="resetTimerEvent"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="73" lineNum="80" pc="268441603" symbol="resetTimerEvent"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="74" lineNum="83" pc="268441622" symbol="dispose"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="74" lineNum="84" pc="268441626" symbol="dispose"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetDelegate.mc" id="74" lineNum="85" pc="268441644" symbol="dispose"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="76" lineNum="11" pc="268441663" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="76" lineNum="12" pc="268441667" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="76" lineNum="13" pc="268441685" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="77" lineNum="19" pc="268441696" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="77" lineNum="20" pc="268441700" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="77" lineNum="21" pc="268441718" symbol="onShow"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="78" lineNum="28" pc="268441731" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="78" lineNum="29" pc="268441735" symbol="onHide"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="79" lineNum="33" pc="268441754" symbol="onLayout"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="79" lineNum="34" pc="268441758" symbol="onLayout"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="80" lineNum="37" pc="268441796" symbol="onUpdate"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="80" lineNum="39" pc="268441800" symbol="onUpdate"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="80" lineNum="40" pc="268441824" symbol="onUpdate"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="80" lineNum="41" pc="268441853" symbol="onUpdate"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="80" lineNum="42" pc="268441865" symbol="onUpdate"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="81" lineNum="45" pc="268441886" symbol="refreshBusData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="81" lineNum="46" pc="268441890" symbol="refreshBusData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="81" lineNum="47" pc="268441902" symbol="refreshBusData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="81" lineNum="48" pc="268441918" symbol="refreshBusData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="81" lineNum="49" pc="268441934" symbol="refreshBusData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="81" lineNum="50" pc="268441980" symbol="refreshBusData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="81" lineNum="51" pc="268442026" symbol="refreshBusData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="81" lineNum="52" pc="268442051" symbol="refreshBusData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="81" lineNum="53" pc="268442082" symbol="refreshBusData"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="82" lineNum="57" pc="268442171" symbol="refreshBusList"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="82" lineNum="58" pc="268442175" symbol="refreshBusList"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="82" lineNum="59" pc="268442185" symbol="refreshBusList"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="82" lineNum="60" pc="268442197" symbol="refreshBusList"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="83" lineNum="63" pc="268442214" symbol="clear"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="83" lineNum="64" pc="268442218" symbol="clear"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusStopView.mc" id="83" lineNum="65" pc="268442245" symbol="clear"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="85" lineNum="8" pc="268442299" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="85" lineNum="9" pc="268442303" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="86" lineNum="13" pc="268442322" symbol="onStart"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="87" lineNum="17" pc="268442327" symbol="onStop"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="87" lineNum="18" pc="268442331" symbol="onStop"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="87" lineNum="19" pc="268442349" symbol="onStop"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="88" lineNum="23" pc="268442359" symbol="getInitialView"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="88" lineNum="24" pc="268442363" symbol="getInitialView"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="88" lineNum="25" pc="268442387" symbol="getInitialView"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="88" lineNum="26" pc="268442419" symbol="getInitialView"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusWidgetApp.mc" id="88" lineNum="27" pc="268442451" symbol="getInitialView"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusModel.mc" id="90" lineNum="7" pc="268442485" symbol="dispose"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusModel.mc" id="90" lineNum="8" pc="268442489" symbol="dispose"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusModel.mc" id="90" lineNum="9" pc="268442498" symbol="dispose"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/SgBusModel.mc" id="90" lineNum="10" pc="268442507" symbol="dispose"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="92" lineNum="10" pc="268442520" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="92" lineNum="11" pc="268442524" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="92" lineNum="12" pc="268442534" symbol="initialize"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="15" pc="268442553" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="17" pc="268442557" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="18" pc="268442579" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="19" pc="268442598" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="21" pc="268442613" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="22" pc="268442632" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="23" pc="268442650" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="25" pc="268442681" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="26" pc="268442700" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="93" lineNum="27" pc="268442718" symbol="onSelect"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="31" pc="268442750" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="32" pc="268442754" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="33" pc="268442773" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="34" pc="268442791" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="36" pc="268442798" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="37" pc="268442845" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="39" pc="268442869" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="40" pc="268442882" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="42" pc="268442906" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="43" pc="268442913" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="45" pc="268442943" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="56" pc="268443077" symbol="showManageFavoritesMenu"/>
+<entry filename="/Users/julio/git/GarminSgBus/SgBusWidget/source/FavoritesMenuDelegate.mc" id="94" lineNum="57" pc="268443105" symbol="showManageFavoritesMenu"/>
+<entry filename="Rez" id="100" lineNum="17" pc="268443141" symbol="initialize"/>
+<entry filename="Rez" id="100" lineNum="18" pc="268443145" symbol="initialize"/>
+<entry filename="Rez" id="100" lineNum="19" pc="268443197" symbol="initialize"/>
+<entry filename="Rez" id="100" lineNum="20" pc="268443247" symbol="initialize"/>
+<entry filename="Rez" id="100" lineNum="21" pc="268443297" symbol="initialize"/>
+<entry filename="Rez" id="103" lineNum="44" pc="268443344" symbol="initialize"/>
+<entry filename="Rez" id="103" lineNum="45" pc="268443348" symbol="initialize"/>
+<entry filename="Rez" id="104" lineNum="48" pc="268443373" symbol="draw"/>
+<entry filename="Rez" id="104" lineNum="49" pc="268443377" symbol="draw"/>
+<entry filename="Rez" id="104" lineNum="50" pc="268443384" symbol="draw"/>
+<entry filename="Rez" id="104" lineNum="51" pc="268443391" symbol="draw"/>
+<entry filename="Rez" id="104" lineNum="52" pc="268443404" symbol="draw"/>
+<entry filename="Rez" id="104" lineNum="53" pc="268443417" symbol="draw"/>
+<entry filename="Rez" id="105" lineNum="56" pc="268443440" symbol="drawComplex"/>
+<entry filename="Rez" id="105" lineNum="58" pc="268443444" symbol="drawComplex"/>
+<entry filename="Rez" id="105" lineNum="59" pc="268443480" symbol="drawComplex"/>
+<entry filename="Rez" id="107" lineNum="72" pc="268443851" symbol="initialize"/>
+<entry filename="Rez" id="107" lineNum="73" pc="268443855" symbol="initialize"/>
+<entry filename="Rez" id="108" lineNum="76" pc="268443880" symbol="draw"/>
+<entry filename="Rez" id="108" lineNum="77" pc="268443884" symbol="draw"/>
+<entry filename="Rez" id="108" lineNum="78" pc="268443891" symbol="draw"/>
+<entry filename="Rez" id="108" lineNum="79" pc="268443898" symbol="draw"/>
+<entry filename="Rez" id="108" lineNum="80" pc="268443911" symbol="draw"/>
+<entry filename="Rez" id="108" lineNum="81" pc="268443924" symbol="draw"/>
+<entry filename="Rez" id="109" lineNum="84" pc="268443947" symbol="drawComplex"/>
+<entry filename="Rez" id="109" lineNum="86" pc="268443951" symbol="drawComplex"/>
+<entry filename="Rez" id="109" lineNum="87" pc="268443987" symbol="drawComplex"/>
+<entry filename="Rez" id="109" lineNum="89" pc="268444032" symbol="drawComplex"/>
+<entry filename="Rez" id="109" lineNum="90" pc="268444068" symbol="drawComplex"/>
+<entry filename="Rez" id="111" lineNum="105" pc="268444351" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="109" pc="268444363" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="110" pc="268444526" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="111" pc="268444551" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="112" pc="268444603" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="113" pc="268444639" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="114" pc="268444652" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="116" pc="268444668" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="117" pc="268444769" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="118" pc="268444917" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="119" pc="268444942" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="120" pc="268444994" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="121" pc="268445142" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="122" pc="268445167" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="123" pc="268445219" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="124" pc="268445352" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="125" pc="268445485" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="126" pc="268445618" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="127" pc="268445751" symbol="BusStopLayout"/>
+<entry filename="Rez" id="111" lineNum="130" pc="268445884" symbol="BusStopLayout"/>
+<entry filename="Rez" id="112" lineNum="141" pc="268445992" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="145" pc="268446004" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="146" pc="268446180" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="147" pc="268446205" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="148" pc="268446257" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="149" pc="268446373" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="150" pc="268446425" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="151" pc="268446526" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="152" pc="268446627" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="153" pc="268446728" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="154" pc="268446829" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="155" pc="268446930" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="156" pc="268447031" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="157" pc="268447164" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="158" pc="268447297" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="159" pc="268447430" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="160" pc="268447563" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="161" pc="268447696" symbol="FavoritesLayout"/>
+<entry filename="Rez" id="112" lineNum="164" pc="268447829" symbol="FavoritesLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="71" method="true" symbol="makeRequestForBusStops"/>
+<entry field="true" id="101" symbol="nearBusStops"/>
+<entry id="43" method="true" symbol="FavoritesLayout"/>
+<entry id="15" object="true" symbol="Util"/>
+<entry id="70" method="true" symbol="refreshData"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="79" symbol="_defaultMenuDelegate"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="8388637" module="true" symbol="Communications"/>
+<entry field="true" id="41" symbol="jsonConf"/>
+<entry id="8389177" method="true" symbol="clear"/>
+<entry field="true" id="8389642" symbol="title"/>
+<entry id="16" object="true" symbol="SgBusSaveMenuDelegate"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="40" object="true" symbol="MainMenu"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="69" method="true" symbol="onReceiveBusStops"/>
+<entry id="88" method="true" symbol="showBusStopsMenu"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="57" symbol="timerStarted"/>
+<entry id="98" method="true" symbol="getFormattedTimeNow"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="65" symbol="_lines"/>
+<entry field="true" id="82" symbol="nearbyViewModel"/>
+<entry id="89" method="true" symbol="registerTimerEvent"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="39" method="true" symbol="drawComplex"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="56" symbol="_cnt"/>
+<entry id="86" method="true" symbol="setFavoritesViewModelAsCurrent"/>
+<entry id="11" object="true" symbol="BusStopsMenuDelegate"/>
+<entry id="19" object="true" symbol="FavoritesView"/>
+<entry field="true" id="46" symbol="searchingGps"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="48" symbol="AppName"/>
+<entry id="59" method="true" symbol="setBusStop"/>
+<entry id="8389594" symbol="headers"/>
+<entry id="110" symbol="nearby"/>
+<entry id="111" symbol="favorites"/>
+<entry field="true" id="80" symbol="_busStopsMenuDelegate"/>
+<entry id="72" method="true" symbol="makeRequestForBuses"/>
+<entry field="true" id="52" symbol="LINE_COUNT"/>
+<entry id="8389078" method="true" symbol="onNextPage"/>
+<entry field="true" id="77" symbol="_model"/>
+<entry id="84" method="true" symbol="getModel"/>
+<entry field="true" id="49" symbol="_mainDelegate"/>
+<entry id="50" method="true" symbol="showManageFavoritesMenu"/>
+<entry field="true" id="36" symbol="LauncherIcon"/>
+<entry field="true" id="51" symbol="_busStop"/>
+<entry id="104" method="true" symbol="getViewModel"/>
+<entry field="true" id="30" symbol="logo"/>
+<entry field="true" id="45" symbol="menu_label_2"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry field="true" id="44" symbol="menu_label_1"/>
+<entry field="true" id="58" symbol="_buses"/>
+<entry id="8388786" method="true" symbol="method"/>
+<entry field="true" id="78" symbol="_defaultMenu"/>
+<entry id="107" method="true" symbol="onReceiveNearbyBusStops"/>
+<entry id="109" method="true" symbol="invokeWebRequestNow"/>
+<entry field="true" id="53" symbol="_idx"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="35" symbol="pin5"/>
+<entry field="true" id="34" symbol="pin4"/>
+<entry field="true" id="33" symbol="pin3"/>
+<entry field="true" id="32" symbol="pin2"/>
+<entry field="true" id="31" symbol="pin1"/>
+<entry field="true" id="29" symbol="pin0"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="24" object="true" symbol="FavoritesMenuDelegate"/>
+<entry id="73" method="true" symbol="makeRequestForMixedBuses"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="37" object="true" symbol="businfo_bg"/>
+<entry id="20" object="true" symbol="SgBusWidgetDelegate"/>
+<entry field="true" id="100" symbol="currBusStop"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="74" method="true" symbol="makeBusApiRequest"/>
+<entry id="14" object="true" symbol="SgBusStopDelegate"/>
+<entry id="91" method="true" symbol="dispose"/>
+<entry id="106" method="true" symbol="refreshViewData"/>
+<entry id="8390422" method="true" symbol="onDone"/>
+<entry id="96" method="true" symbol="getMinifiedBusStringInfo"/>
+<entry id="62" method="true" symbol="getCurrentView"/>
+<entry id="97" method="true" symbol="computeArrivalMins"/>
+<entry id="94" method="true" symbol="refreshBusList"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="25" symbol="_delegate"/>
+<entry id="18" object="true" symbol="NearbyViewModel"/>
+<entry field="true" id="55" symbol="_views"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="83" symbol="currentViewModel"/>
+<entry field="true" id="64" symbol="_view"/>
+<entry field="true" id="92" symbol="_idxStart"/>
+<entry field="true" id="54" symbol="_viewCount"/>
+<entry id="68" method="true" symbol="onPosition"/>
+<entry id="93" method="true" symbol="refreshBusData"/>
+<entry id="23" object="true" symbol="SgBusModel"/>
+<entry id="21" object="true" symbol="SgBusStopView"/>
+<entry field="true" id="99" symbol="conf"/>
+<entry id="87" method="true" symbol="showDefaultMenu"/>
+<entry id="27" module="true" symbol="Layouts"/>
+<entry id="13" object="true" symbol="FavoritesManageMenuDelegate"/>
+<entry id="8388642" module="true" symbol="Position"/>
+<entry field="true" id="66" symbol="_gpsPosition"/>
+<entry field="true" id="47" symbol="prompt"/>
+<entry id="8389079" method="true" symbol="onPreviousPage"/>
+<entry field="true" id="76" symbol="_timer"/>
+<entry field="true" id="81" symbol="favoritesViewModel"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="38" object="true" symbol="buspin"/>
+<entry field="true" id="67" symbol="visible"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="85" method="true" symbol="setNearbyViewModelAsCurrent"/>
+<entry id="60" method="true" symbol="timerCallback"/>
+<entry id="8389844" symbol="responseType"/>
+<entry field="true" id="75" symbol="_busStopDelegate"/>
+<entry field="true" id="28" symbol="pin"/>
+<entry id="17" object="true" symbol="WebRequestHandler"/>
+<entry id="8389346" symbol="text"/>
+<entry id="90" method="true" symbol="resetTimerEvent"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="12" object="true" symbol="FavoritesViewModel"/>
+<entry id="22" object="true" symbol="SgBusWidgetApp"/>
+<entry id="112" symbol="manage"/>
+<entry id="26" module="true" symbol="Menus"/>
+<entry field="true" id="108" symbol="_busTimes"/>
+<entry field="true" id="63" symbol="_itemsToRemove"/>
+<entry id="95" method="true" symbol="getBusStringInfo"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="61" method="true" symbol="onReceiveBuses"/>
+<entry field="true" id="103" symbol="pinLocX"/>
+<entry id="105" method="true" symbol="onReceiveMixedBuses"/>
+<entry field="true" id="102" symbol="gpsPosition"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry id="42" method="true" symbol="BusStopLayout"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435521" name="mainDelegate" stackId="1" startPc="268435456"/>
+<entry endPc="268435658" name="busStop" stackId="2" startPc="268435525"/>
+<entry endPc="268435659" name="item" stackId="1" startPc="268435521"/>
+<entry endPc="268435702" name="view" stackId="1" startPc="268435659"/>
+<entry endPc="268435898" name="j" stackId="7" startPc="268435848"/>
+<entry endPc="268435898" name="bs" stackId="6" startPc="268435811"/>
+<entry endPc="268435911" name="i" stackId="5" startPc="268435811"/>
+<entry endPc="268435947" name="ids" stackId="3" startPc="268435767"/>
+<entry endPc="268435947" name="busStops" stackId="4" startPc="268435767"/>
+<entry endPc="268435963" name="bookmarks" stackId="2" startPc="268435723"/>
+<entry endPc="268435963" name="app" stackId="1" startPc="268435723"/>
+<entry endPc="268436139" name="responseCode" stackId="1" startPc="268436070"/>
+<entry endPc="268436139" name="data" stackId="2" startPc="268436070"/>
+<entry endPc="268436438" name="busInfo" stackId="9" startPc="268436326"/>
+<entry endPc="268436438" name="busNo" stackId="8" startPc="268436326"/>
+<entry endPc="268436451" name="j" stackId="7" startPc="268436326"/>
+<entry endPc="268436451" name="bs" stackId="6" startPc="268436248"/>
+<entry endPc="268436464" name="i" stackId="5" startPc="268436248"/>
+<entry endPc="268436464" name="busStops" stackId="4" startPc="268436211"/>
+<entry endPc="268436641" name="i" stackId="10" startPc="268436605"/>
+<entry endPc="268436667" name="bookmarks" stackId="3" startPc="268436143"/>
+<entry endPc="268436667" name="app" stackId="2" startPc="268436143"/>
+<entry endPc="268436668" name="busTimesData" stackId="1" startPc="268436139"/>
+<entry endPc="268436741" name="item" stackId="1" startPc="268436705"/>
+<entry endPc="268436980" name="retain" stackId="7" startPc="268436825"/>
+<entry endPc="268436980" name="stopId" stackId="5" startPc="268436825"/>
+<entry endPc="268436980" name="busNo" stackId="6" startPc="268436825"/>
+<entry endPc="268436993" name="i" stackId="4" startPc="268436825"/>
+<entry endPc="268437030" name="bookmarks" stackId="2" startPc="268436745"/>
+<entry endPc="268437030" name="keys" stackId="3" startPc="268436745"/>
+<entry endPc="268437030" name="app" stackId="1" startPc="268436745"/>
+<entry endPc="268437138" name="mainDelegate" stackId="1" startPc="268437031"/>
+<entry endPc="268437292" name="busStop" stackId="1" startPc="268437235"/>
+<entry endPc="268437549" name="i" stackId="5" startPc="268437496"/>
+<entry endPc="268437580" name="tmpBuses" stackId="3" startPc="268437428"/>
+<entry endPc="268437580" name="busCount" stackId="4" startPc="268437428"/>
+<entry endPc="268437662" name="responseCode" stackId="1" startPc="268437413"/>
+<entry endPc="268437662" name="data" stackId="2" startPc="268437413"/>
+<entry endPc="268438098" name="busNo" stackId="5" startPc="268438019"/>
+<entry endPc="268438111" name="i" stackId="4" startPc="268438019"/>
+<entry endPc="268438143" name="delegate" stackId="2" startPc="268437885"/>
+<entry endPc="268438143" name="buses" stackId="3" startPc="268437885"/>
+<entry endPc="268438143" name="menu" stackId="1" startPc="268437885"/>
+<entry endPc="268438381" name="next2" stackId="3" startPc="268438245"/>
+<entry endPc="268438381" name="next" stackId="2" startPc="268438245"/>
+<entry endPc="268438382" name="bus" stackId="1" startPc="268438241"/>
+<entry endPc="268438565" name="phrase" stackId="4" startPc="268438386"/>
+<entry endPc="268438565" name="next2" stackId="3" startPc="268438386"/>
+<entry endPc="268438565" name="next" stackId="2" startPc="268438386"/>
+<entry endPc="268438566" name="bus" stackId="1" startPc="268438382"/>
+<entry endPc="268438630" name="mins" stackId="2" startPc="268438570"/>
+<entry endPc="268438631" name="durationMs" stackId="1" startPc="268438566"/>
+<entry endPc="268438816" name="result" stackId="5" startPc="268438635"/>
+<entry endPc="268438816" name="hour" stackId="2" startPc="268438635"/>
+<entry endPc="268438816" name="ampm" stackId="4" startPc="268438635"/>
+<entry endPc="268438816" name="min" stackId="3" startPc="268438635"/>
+<entry endPc="268438816" name="clockTime" stackId="1" startPc="268438635"/>
+<entry endPc="268438889" name="busStop" stackId="1" startPc="268438820"/>
+<entry endPc="268439103" name="bookmarks" stackId="3" startPc="268438893"/>
+<entry endPc="268439103" name="app" stackId="2" startPc="268438893"/>
+<entry endPc="268439104" name="item" stackId="1" startPc="268438889"/>
+<entry endPc="268439190" name="url" stackId="3" startPc="268439108"/>
+<entry endPc="268439190" name="params" stackId="4" startPc="268439108"/>
+<entry endPc="268439191" name="onReceiveBusStops" stackId="2" startPc="268439104"/>
+<entry endPc="268439191" name="loc" stackId="1" startPc="268439104"/>
+<entry endPc="268439248" name="url" stackId="3" startPc="268439195"/>
+<entry endPc="268439248" name="params" stackId="4" startPc="268439195"/>
+<entry endPc="268439249" name="stopId" stackId="1" startPc="268439191"/>
+<entry endPc="268439249" name="onReceiveBuses" stackId="2" startPc="268439191"/>
+<entry endPc="268439306" name="url" stackId="3" startPc="268439253"/>
+<entry endPc="268439306" name="params" stackId="4" startPc="268439253"/>
+<entry endPc="268439307" name="ids" stackId="1" startPc="268439249"/>
+<entry endPc="268439307" name="onReceiveMixedBuses" stackId="2" startPc="268439249"/>
+<entry endPc="268439417" name="options" stackId="4" startPc="268439311"/>
+<entry endPc="268439418" name="url" stackId="1" startPc="268439307"/>
+<entry endPc="268439418" name="params" stackId="2" startPc="268439307"/>
+<entry endPc="268439418" name="onReceive" stackId="3" startPc="268439307"/>
+<entry endPc="268439436" name="view" stackId="1" startPc="268439421"/>
+<entry endPc="268439724" name="loc" stackId="2" startPc="268439628"/>
+<entry endPc="268439728" name="info" stackId="1" startPc="268439603"/>
+<entry endPc="268439838" name="responseCode" stackId="1" startPc="268439728"/>
+<entry endPc="268439838" name="data" stackId="2" startPc="268439728"/>
+<entry endPc="268439945" name="i" stackId="2" startPc="268439909"/>
+<entry endPc="268439988" name="messages" stackId="1" startPc="268439838"/>
+<entry endPc="268440153" name="mainDelegate" stackId="1" startPc="268439988"/>
+<entry endPc="268440430" name="dc" stackId="1" startPc="268440388"/>
+<entry endPc="268440511" name="responseCode" stackId="1" startPc="268440430"/>
+<entry endPc="268440511" name="data" stackId="2" startPc="268440430"/>
+<entry endPc="268440764" name="pin" stackId="5" startPc="268440556"/>
+<entry endPc="268440764" name="busStopNo" stackId="3" startPc="268440556"/>
+<entry endPc="268440764" name="field" stackId="6" startPc="268440556"/>
+<entry endPc="268440764" name="isBusNo" stackId="4" startPc="268440556"/>
+<entry endPc="268440777" name="i" stackId="2" startPc="268440556"/>
+<entry endPc="268440778" name="lines" stackId="1" startPc="268440511"/>
+<entry endPc="268440896" name="responseCode" stackId="1" startPc="268440778"/>
+<entry endPc="268440896" name="data" stackId="2" startPc="268440778"/>
+<entry endPc="268440973" name="timeNow" stackId="2" startPc="268440900"/>
+<entry endPc="268440974" name="dc" stackId="1" startPc="268440896"/>
+<entry endPc="268441117" name="model" stackId="1" startPc="268440974"/>
+<entry endPc="268441122" name="view" stackId="1" startPc="268441117"/>
+<entry endPc="268441127" name="view" stackId="1" startPc="268441122"/>
+<entry endPc="268441242" name="stops" stackId="1" startPc="268441187"/>
+<entry endPc="268441528" name="i" stackId="3" startPc="268441415"/>
+<entry endPc="268441566" name="menu" stackId="2" startPc="268441296"/>
+<entry endPc="268441567" name="stops" stackId="1" startPc="268441292"/>
+<entry endPc="268441599" name="callback" stackId="1" startPc="268441567"/>
+<entry endPc="268441696" name="delegate" stackId="1" startPc="268441663"/>
+<entry endPc="268441796" name="dc" stackId="1" startPc="268441754"/>
+<entry endPc="268441885" name="timeNow" stackId="2" startPc="268441800"/>
+<entry endPc="268441886" name="dc" stackId="1" startPc="268441796"/>
+<entry endPc="268442170" name="v" stackId="5" startPc="268442082"/>
+<entry endPc="268442170" name="i" stackId="4" startPc="268442082"/>
+<entry endPc="268442170" name="busIdx" stackId="3" startPc="268441890"/>
+<entry endPc="268442170" name="buses" stackId="2" startPc="268441890"/>
+<entry endPc="268442170" name="busStop" stackId="1" startPc="268441890"/>
+<entry endPc="268442214" name="idxStart" stackId="1" startPc="268442171"/>
+<entry endPc="268442298" name="i" stackId="1" startPc="268442245"/>
+<entry endPc="268442327" name="state" stackId="1" startPc="268442322"/>
+<entry endPc="268442359" name="state" stackId="1" startPc="268442327"/>
+<entry endPc="268442484" name="view" stackId="2" startPc="268442363"/>
+<entry endPc="268442484" name="model" stackId="1" startPc="268442363"/>
+<entry endPc="268442553" name="mainDelegate" stackId="1" startPc="268442520"/>
+<entry endPc="268442749" name="id" stackId="2" startPc="268442557"/>
+<entry endPc="268442750" name="item" stackId="1" startPc="268442553"/>
+<entry endPc="268443064" name="j" stackId="8" startPc="268442943"/>
+<entry endPc="268443064" name="bs" stackId="7" startPc="268442906"/>
+<entry endPc="268443077" name="i" stackId="6" startPc="268442906"/>
+<entry endPc="268443137" name="delegate" stackId="4" startPc="268442798"/>
+<entry endPc="268443137" name="busStops" stackId="5" startPc="268442798"/>
+<entry endPc="268443137" name="menu" stackId="3" startPc="268442798"/>
+<entry endPc="268443140" name="bookmarks" stackId="2" startPc="268442754"/>
+<entry endPc="268443140" name="app" stackId="1" startPc="268442754"/>
+<entry endPc="268443439" name="pWidth" stackId="4" startPc="268443377"/>
+<entry endPc="268443439" name="pY" stackId="3" startPc="268443377"/>
+<entry endPc="268443439" name="pX" stackId="2" startPc="268443377"/>
+<entry endPc="268443439" name="pHeight" stackId="5" startPc="268443377"/>
+<entry endPc="268443440" name="dc" stackId="1" startPc="268443373"/>
+<entry endPc="268443851" name="pWidth" stackId="4" startPc="268443440"/>
+<entry endPc="268443851" name="dc" stackId="1" startPc="268443440"/>
+<entry endPc="268443851" name="pY" stackId="3" startPc="268443440"/>
+<entry endPc="268443851" name="pX" stackId="2" startPc="268443440"/>
+<entry endPc="268443851" name="pHeight" stackId="5" startPc="268443440"/>
+<entry endPc="268443946" name="pWidth" stackId="4" startPc="268443884"/>
+<entry endPc="268443946" name="pY" stackId="3" startPc="268443884"/>
+<entry endPc="268443946" name="pX" stackId="2" startPc="268443884"/>
+<entry endPc="268443946" name="pHeight" stackId="5" startPc="268443884"/>
+<entry endPc="268443947" name="dc" stackId="1" startPc="268443880"/>
+<entry endPc="268444351" name="pWidth" stackId="4" startPc="268443947"/>
+<entry endPc="268444351" name="dc" stackId="1" startPc="268443947"/>
+<entry endPc="268444351" name="pY" stackId="3" startPc="268443947"/>
+<entry endPc="268444351" name="pX" stackId="2" startPc="268443947"/>
+<entry endPc="268444351" name="pHeight" stackId="5" startPc="268443947"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_busName" stackId="8" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_bus4" stackId="14" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_bus3" stackId="13" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_busId" stackId="6" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_bus2" stackId="12" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_bus1" stackId="11" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_bus0" stackId="10" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_timenow_fontHeight" stackId="3" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_pin0" stackId="5" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_busName_fontHeight" stackId="9" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_timenow" stackId="2" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_bitmap_busId_fontHeight" stackId="7" startPc="268444363"/>
+<entry endPc="268445991" name="rez_cmp_local_custom_drawable_businfo_bg" stackId="4" startPc="268444363"/>
+<entry endPc="268445992" name="dc" stackId="1" startPc="268444351"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_fave4" stackId="15" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_fave3" stackId="14" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_fave2" stackId="13" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_fave1" stackId="12" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_fave0" stackId="11" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_pin5" stackId="10" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_pin4" stackId="9" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_pin3" stackId="8" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_pin2" stackId="7" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_pin1" stackId="6" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_timenow_fontHeight" stackId="3" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_pin0" stackId="5" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_logo" stackId="4" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_timenow" stackId="2" startPc="268446004"/>
+<entry endPc="268447976" name="rez_cmp_local_bitmap_fave5" stackId="16" startPc="268446004"/>
+<entry endPc="268447977" name="dc" stackId="1" startPc="268445992"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="BusStopsMenuDelegate">
+<param id="mainDelegate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="BusStopsMenuDelegate">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="FavoritesViewModel">
+<param id="view"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="timerCallback" parent="FavoritesViewModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="invokeWebRequestNow" parent="FavoritesViewModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="FavoritesViewModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="FavoritesViewModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceiveMixedBuses" parent="FavoritesViewModel">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="refreshData" parent="FavoritesViewModel">
+<param id="busTimesData"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="FavoritesManageMenuDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="FavoritesManageMenuDelegate">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onDone" parent="FavoritesManageMenuDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SgBusStopDelegate">
+<param id="mainDelegate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="SgBusStopDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="SgBusStopDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setBusStop" parent="SgBusStopDelegate">
+<param id="busStop"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="timerCallback" parent="SgBusStopDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceiveBuses" parent="SgBusStopDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getCurrentView" parent="SgBusStopDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onNextPage" parent="SgBusStopDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onPreviousPage" parent="SgBusStopDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="SgBusStopDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="SgBusStopDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getBusStringInfo" parent="Util">
+<param id="bus"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getMinifiedBusStringInfo" parent="Util">
+<param id="bus"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="computeArrivalMins" parent="Util">
+<param id="durationMs"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getFormattedTimeNow" parent="Util">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SgBusSaveMenuDelegate">
+<param id="busStop"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="SgBusSaveMenuDelegate">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="makeRequestForBusStops" parent="WebRequestHandler">
+<param id="loc"/>
+<param id="onReceiveBusStops"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="makeRequestForBuses" parent="WebRequestHandler">
+<param id="stopId"/>
+<param id="onReceiveBuses"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="makeRequestForMixedBuses" parent="WebRequestHandler">
+<param id="ids"/>
+<param id="onReceiveMixedBuses"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="makeBusApiRequest" parent="WebRequestHandler">
+<param id="url"/>
+<param id="params"/>
+<param id="onReceive"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="NearbyViewModel">
+<param id="view"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="NearbyViewModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="NearbyViewModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onPosition" parent="NearbyViewModel">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceiveBusStops" parent="NearbyViewModel">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="refreshData" parent="NearbyViewModel">
+<param id="messages"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="FavoritesView">
+<param id="mainDelegate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getViewModel" parent="FavoritesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="FavoritesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="timerCallback" parent="FavoritesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="FavoritesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="FavoritesView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceiveMixedBuses" parent="FavoritesView">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="refreshViewData" parent="FavoritesView">
+<param id="lines"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceiveNearbyBusStops" parent="FavoritesView">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="FavoritesView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SgBusWidgetDelegate">
+<param id="model"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="SgBusWidgetDelegate">
+<param id="view"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="SgBusWidgetDelegate">
+<param id="view"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getModel" parent="SgBusWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setNearbyViewModelAsCurrent" parent="SgBusWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setFavoritesViewModelAsCurrent" parent="SgBusWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="SgBusWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="showDefaultMenu" parent="SgBusWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="showBusStopsMenu" parent="SgBusWidgetDelegate">
+<param id="stops"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="registerTimerEvent" parent="SgBusWidgetDelegate">
+<param id="callback"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="resetTimerEvent" parent="SgBusWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="dispose" parent="SgBusWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SgBusStopView">
+<param id="delegate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="SgBusStopView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="SgBusStopView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="SgBusStopView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="SgBusStopView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="refreshBusData" parent="SgBusStopView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="refreshBusList" parent="SgBusStopView">
+<param id="idxStart"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="clear" parent="SgBusStopView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SgBusWidgetApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="SgBusWidgetApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="SgBusWidgetApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="SgBusWidgetApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="dispose" parent="SgBusModel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="FavoritesMenuDelegate">
+<param id="mainDelegate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="FavoritesMenuDelegate">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="showManageFavoritesMenu" parent="FavoritesMenuDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MainMenu">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="businfo_bg">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="businfo_bg">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawComplex" parent="businfo_bg">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="buspin">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="buspin">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawComplex" parent="buspin">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="BusStopLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="FavoritesLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="103" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="374" parentId="globals" symbolId="SgBusWidgetApp" type="class"/>
+<dataEntry offset="453" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="532" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="651" parentId="Drawables" symbolId="buspin" type="class"/>
+<dataEntry offset="714" parentId="Drawables" symbolId="businfo_bg" type="class"/>
+<dataEntry offset="777" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="816" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry offset="863" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="894" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="933" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="980" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1051" parentId="globals" symbolId="FavoritesMenuDelegate" type="class"/>
+<dataEntry offset="1122" parentId="globals" symbolId="SgBusSaveMenuDelegate" type="class"/>
+<dataEntry offset="1185" parentId="globals" symbolId="SgBusStopDelegate" type="class"/>
+<dataEntry offset="1384" parentId="globals" symbolId="FavoritesManageMenuDelegate" type="class"/>
+<dataEntry offset="1455" parentId="globals" symbolId="NearbyViewModel" type="class"/>
+<dataEntry offset="1582" parentId="globals" symbolId="WebRequestHandler" type="class"/>
+<dataEntry offset="1692" parentId="globals" symbolId="BusStopsMenuDelegate" type="class"/>
+<dataEntry offset="1763" parentId="globals" symbolId="SgBusWidgetDelegate" type="class"/>
+<dataEntry offset="1962" parentId="globals" symbolId="SgBusStopView" type="class"/>
+<dataEntry offset="2081" parentId="globals" symbolId="Util" type="class"/>
+<dataEntry offset="2199" parentId="globals" symbolId="SgBusModel" type="class"/>
+<dataEntry offset="2278" parentId="globals" symbolId="FavoritesView" type="class"/>
+<dataEntry offset="2429" parentId="globals" symbolId="FavoritesViewModel" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>

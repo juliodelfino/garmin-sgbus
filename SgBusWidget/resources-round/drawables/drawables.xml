@@ -1,0 +1,11 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <drawable-list id="businfo_bg">
+        <shape type="polygon" color="Gfx.COLOR_WHITE" points="[[0,35],[240,35],[240,100],[0,100]]" />
+    </drawable-list>
+	<bitmap id="pin" filename="pin.png" />
+    <drawable-list id="buspin">
+		<shape type="circle" x="75" y="55" radius="5" color="Gfx.COLOR_RED" />
+		<shape type="polygon" points="[[70,55],[80,55],[75,65]]"  color="Gfx.COLOR_RED" />
+    </drawable-list>
+</drawables>

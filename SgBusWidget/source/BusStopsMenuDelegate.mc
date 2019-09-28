@@ -1,7 +1,7 @@
 using Toybox.WatchUi;
 using Toybox.System;
 
-class SgBusWidgetMenuDelegate extends WatchUi.Menu2InputDelegate {
+class BusStopsMenuDelegate extends WatchUi.Menu2InputDelegate {
 
     hidden var _mainDelegate;
     hidden var _busStopDelegate;
@@ -14,8 +14,8 @@ class SgBusWidgetMenuDelegate extends WatchUi.Menu2InputDelegate {
     
     function onSelect(item) {
     	var busStop = { "id" => item.getId(), "name" => item.getSubLabel(), "buses" => [] };
-    	_busStopDelegate.setBusStop(busStop);
         WatchUi.pushView(_busStopDelegate.getCurrentView(), _busStopDelegate, WatchUi.SLIDE_LEFT);
+    	_busStopDelegate.setBusStop(busStop);
     }
 
 

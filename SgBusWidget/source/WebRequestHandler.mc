@@ -3,29 +3,29 @@ using Toybox.Communications;
 class WebRequestHandler {
 
 	static function makeRequestForBusStops(loc, onReceiveBusStops) {
-       var url = "https://sagabus2.appspot.com/busstop";                         // set the url
+       var url = "https://sagabus.herokuapp.com/busstop";                         // set the url
 
        var params = {                                              // set the parameters
-         //     "lat" => loc[0], 
-         //     "long" => loc[1]  
+              "lat" => loc[0], 
+              "long" => loc[1],
          //Use Vivo City bus stop
-              "lat" => 1.26552,
-              "long" => 103.82211,
-              "minify" => true
+         //     "lat" => 1.26552,
+         //     "long" => 103.82211,
          //Use Ang Mo Kio Int for 15 buses
          //     "lat" => 1.36968,
-         //     "long" => 103.84856
+         //     "long" => 103.84856,
          //Use this for longest bus stop name
          //     "lat" => 1.41557,
          //     "long" => 103.80949
+         	  "radius" => 3.5,
+              "minify" => true
               
        };
        makeBusApiRequest(url, params, onReceiveBusStops);
     }
      
     static function makeRequestForBuses(stopId, onReceiveBuses) {
-    //   var url = "https://arrivelah.herokuapp.com/";  
-  	   var url = "https://sagabus2.appspot.com/bus";                      
+  	   var url = "https://sagabus.herokuapp.com/bus";                      
        var params = {                                              
               "id" => stopId,
               "minify" => true
@@ -35,7 +35,7 @@ class WebRequestHandler {
     
          
     static function makeRequestForMixedBuses(ids, onReceiveMixedBuses) {
-  	   var url = "https://sagabus.appspot.com/busmixed";                      
+  	   var url = "https://sagabus.herokuapp.com/busmixed";                      
        var params = {                                              
               "ids" => ids,
               "minify" => true

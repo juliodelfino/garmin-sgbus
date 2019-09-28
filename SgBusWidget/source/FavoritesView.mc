@@ -4,43 +4,39 @@ using Toybox.Time;
 
 class FavoritesView extends WatchUi.View {
 
+	hidden var LINE_COUNT;
 	hidden var _mainDelegate;
 	hidden var _lines;
-	hidden var _cnt = 0;
+	hidden var pinLocX = 20;
 	
 	function initialize(mainDelegate) {
 		_mainDelegate = mainDelegate;
 		View.initialize();	
+		_mainDelegate.favoritesViewModel = new FavoritesViewModel(self);
+		_mainDelegate.nearbyViewModel = new NearbyViewModel(self);
+		_mainDelegate.currentViewModel = _mainDelegate.favoritesViewModel;
+		
+		LINE_COUNT = Util.conf["favoritesLineCount"];
 	}
-    
-    function timerCallback() {
-        if (_cnt >= 15) {
-        	var app = Application.getApp();
-	    	var bookmarks = app.getProperty("bookmarks");
-	    	if (bookmarks != null) {
-	    	    var ids = "";
-		    	var busStops = bookmarks.values();
-	    		for (var i = 0; i < busStops.size(); i++) {
-	    		
-	    			var bs = busStops[i];
-	    			for (var j = 0; j < bs["savedBuses"].size(); j++) {
-				        ids += bs["id"] + "_" + bs["savedBuses"][j] + ",";
-	    			}
-	    		}
-    			WebRequestHandler.makeRequestForMixedBuses(ids, method(:onReceiveMixedBuses));
-			}
-	    	_cnt = 0;
-    	}
-    	_cnt += 1;
-	    WatchUi.requestUpdate();
-    }
+	
+	function getViewModel() {
+		return _mainDelegate.currentViewModel;
+	}
+	
 	
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
 	function onShow() {
-		_mainDelegate.registerTimerEvent(method(:timerCallback));	
-    	refreshData();
+		if (getViewModel() == _mainDelegate.favoritesViewModel) {
+			_mainDelegate.registerTimerEvent(method(:timerCallback));
+			getViewModel().invokeWebRequestNow();
+		}
+		getViewModel().onShow();
+	}
+	
+	function timerCallback() {
+		getViewModel().timerCallback();
 	}
 	
 	
@@ -48,7 +44,10 @@ class FavoritesView extends WatchUi.View {
     // state of this View here. This includes freeing resources from
     // memory.
 	function onHide() {
-		_mainDelegate.resetTimerEvent();
+		if (getViewModel() == _mainDelegate.favoritesViewModel) {
+			_mainDelegate.resetTimerEvent();
+		}
+		getViewModel().onHide();
 	}
 
     // Load your resources here
@@ -57,41 +56,35 @@ class FavoritesView extends WatchUi.View {
     }
     
     function onReceiveMixedBuses(responseCode, data) {
-       if (responseCode == 200) {
-           //TODO: fix this part
-       }
-       else {
+       if (responseCode != 200) {
            View.findDrawableById("fave1").setText("HTTP error [" + responseCode + "]");
        }
 	   WatchUi.requestUpdate();
     }
     
-    function refreshData() {
-		_lines = [];	
-		
-    	var app = Application.getApp();
-    	var bookmarks = app.getProperty("bookmarks");
-    	if (bookmarks != null) {
-    		var busStops = bookmarks.values();
-    		for (var i = 0; i < busStops.size(); i++) {
-    		
-    			var bs = busStops[i];
-    			_lines.add(bs["id"] + " " + bs["name"]);
-    			for (var j = 0; j < bs["savedBuses"].size(); j++) {
-	    			_lines.add("• " + bs["savedBuses"][j]);
-    			}
-    		}
-    	}
-    	if (_lines.size() == 0) {
-    		_lines.add("No saved buses yet");
-    	}
-    	for (var i = _lines.size(); i < 5; i++) {
-    		_lines.add("");
-    	} 	
+    function refreshViewData(lines) {
         
-        for (var i = 0; i < _lines.size() && i < 5; i++) {   	    
-        	View.findDrawableById("fave"+i).setText(_lines[i]);
+        for (var i = 0; i < lines.size() && i < LINE_COUNT; i++) {
+        	var busStopNo = lines[i].toNumber();
+			var isBusNo = busStopNo != null && busStopNo > 1000;
+			var pin = View.findDrawableById("pin"+i);
+        	pin.setLocation(isBusNo ? pinLocX : -20, pin.locY);
+        	var field = View.findDrawableById("fave"+i);
+        	field.setText(lines[i]);
+        	field.setFont(isBusNo ? Util.conf["fontBusStop"] : Util.conf["fontBus"]);
        	}
+    }
+    
+	function onReceiveNearbyBusStops(responseCode, data) {
+       if (responseCode == 200) {
+       		_mainDelegate.showBusStopsMenu(data);
+		    _mainDelegate.currentViewModel = _mainDelegate.favoritesViewModel;	
+       }
+       else {
+           getViewModel().refreshData("HTTP error [" + responseCode + "]");
+       }
+	   WatchUi.requestUpdate();
+	   
     }
     
     function onUpdate(dc) {

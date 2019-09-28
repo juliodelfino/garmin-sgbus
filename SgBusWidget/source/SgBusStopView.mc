@@ -6,6 +6,7 @@ using Toybox.Time.Gregorian;
 class SgBusStopView extends WatchUi.View {
 
 	hidden var _delegate;
+	hidden var _idxStart = 0;
 	
 	function initialize(delegate) {
 		View.initialize();
@@ -47,13 +48,20 @@ class SgBusStopView extends WatchUi.View {
     	var buses = _delegate._buses;
         View.findDrawableById("busId").setText(busStop["id"] + "");
         View.findDrawableById("busName").setText(busStop["name"] + "");
-        for (var i = 0; i < buses.size() && i < 4; i++) {   	    
-        	View.findDrawableById("bus"+i).setText(buses[i]);
+        var busIdx = _idxStart * _delegate.LINE_COUNT;
+        for (var i = busIdx, v = 0; v < _delegate.LINE_COUNT; i++, v++) {
+        	View.findDrawableById("bus"+v).setText(i < buses.size() ? buses[i] : "");
        	}
     }
     
+    function refreshBusList(idxStart) {
+    	_idxStart = idxStart;
+    	refreshBusData();
+    	WatchUi.requestUpdate();
+    }
+    
     function clear() {
-        for (var i = 0; i < 4; i++) {
+        for (var i = 0; i < _delegate.LINE_COUNT; i++) {
         	View.findDrawableById("bus"+i).setText("");
        	}
     }

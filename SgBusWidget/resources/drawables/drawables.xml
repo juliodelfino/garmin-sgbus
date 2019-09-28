@@ -1,4 +1,0 @@
-<drawables>
-    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
-	<bitmap id="SgBus" x="center" y="35" filename="bus-round-icon.png" />
-</drawables>

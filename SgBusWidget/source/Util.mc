@@ -1,12 +1,21 @@
+using Toybox.WatchUi;
 using Toybox.Lang;
 using Toybox.System;
 
 class Util {
 
     static function getBusStringInfo(bus) {
-        var next = computeArrivalMins(bus["next"]["duration_ms"]);
-        var next2 = computeArrivalMins(bus["next2"]["duration_ms"]);
+        var next = bus["next"] != null ? computeArrivalMins(bus["next"]["duration_ms"]) : null;
+        var next2 = bus["next2"] != null ? computeArrivalMins(bus["next2"]["duration_ms"]) : null;
     	return bus["no"] + " in " + next + (next2 != null ? ", " + next2 : "") + " min";
+    }
+    
+    static function getMinifiedBusStringInfo(bus) {
+        var next = bus["n1"] != null && bus["n1"] < 1 ? "Arr" : bus["n1"];
+        var next2 = bus["n2"] != null && bus["n2"] < 1 ? "Arr" : bus["n2"];
+        var phrase = (next == null && next2 == null) ? " -- NA -- " :
+        	(" in " + next + (next2 != null ? ", " + next2 : "") + " min");
+    	return bus["no"] + phrase;
     }
     
     static function computeArrivalMins(durationMs) {
@@ -34,4 +43,6 @@ class Util {
 		
 		return Lang.format("$1$:$2$ $3$", [hour, min, ampm]); 
 	}
+	
+	public static var conf = WatchUi.loadResource(Rez.JsonData.jsonConf);
 }

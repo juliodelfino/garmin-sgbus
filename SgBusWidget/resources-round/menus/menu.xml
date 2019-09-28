@@ -1,0 +1,5 @@
+<menu2 id="MainMenu" title="@Strings.AppName">
+    <menu-item id="nearby" label="Nearby" subLabel="Find nearby bus stops"></menu-item>
+    <menu-item id="favorites" label="Favorites" subLabel="Show saved buses"></menu-item>
+    <menu-item id="manage" label="Manage Favorites"></menu-item>
+</menu2>

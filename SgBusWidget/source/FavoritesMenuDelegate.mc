@@ -6,12 +6,10 @@ using Toybox.Time.Gregorian;
 class FavoritesMenuDelegate extends WatchUi.Menu2InputDelegate {
 
 	hidden var _mainDelegate;
-	hidden var _nearbyBusesView;
 	
     function initialize(mainDelegate) {	
 		_mainDelegate = mainDelegate;
         Menu2InputDelegate.initialize();
-        _nearbyBusesView = new SgBusWidgetView(_mainDelegate);
 	}
 	
 	function onSelect(item) {	
@@ -20,9 +18,13 @@ class FavoritesMenuDelegate extends WatchUi.Menu2InputDelegate {
 		if (id.equals("manage")) {
 			showManageFavoritesMenu();
 		}
-		else if (id.equals("nearby")) {
+		else if (id.equals("favorites")) {
+			_mainDelegate.setFavoritesViewModelAsCurrent();
 			WatchUi.popView(WatchUi.SLIDE_LEFT);
-        	WatchUi.pushView(_nearbyBusesView, _mainDelegate, WatchUi.SLIDE_LEFT);
+		}
+		else if (id.equals("nearby")) {
+			_mainDelegate.setNearbyViewModelAsCurrent();
+			WatchUi.popView(WatchUi.SLIDE_LEFT);
 		}
 	}
 	
@@ -51,7 +53,7 @@ class FavoritesMenuDelegate extends WatchUi.Menu2InputDelegate {
 			        );
     			}
     		}
-    		WatchUi.popView(WatchUi.SLIDE_LEFT);
+    		WatchUi.popView(WatchUi.SLIDE_LEFT); //pop the main menu
         	WatchUi.pushView(menu, delegate, WatchUi.SLIDE_LEFT);
     	}
 	}

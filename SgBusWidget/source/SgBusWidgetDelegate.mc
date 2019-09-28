@@ -6,6 +6,10 @@ class SgBusWidgetDelegate extends WatchUi.BehaviorDelegate {
 	hidden var _model;
 	hidden var _defaultMenu;
 	hidden var _defaultMenuDelegate;
+	hidden var _busStopsMenuDelegate;
+	public var favoritesViewModel;
+	public var nearbyViewModel;
+	public var currentViewModel;
 	
     function initialize(model) {
         BehaviorDelegate.initialize();
@@ -22,9 +26,16 @@ class SgBusWidgetDelegate extends WatchUi.BehaviorDelegate {
     function onHide(view) {
     }
     
-	
 	function getModel() {
 		return _model;
+	}
+	
+	function setNearbyViewModelAsCurrent() {
+		currentViewModel = nearbyViewModel;
+	}
+	
+	function setFavoritesViewModelAsCurrent() {
+		currentViewModel = favoritesViewModel;
 	}
 
     function onSelect() {
@@ -44,9 +55,10 @@ class SgBusWidgetDelegate extends WatchUi.BehaviorDelegate {
     }
     
     function showBusStopsMenu(stops) {
-
     	var menu = new WatchUi.Menu2({:title=>"Bus Stops"});
-    	var menuDelegate = new SgBusWidgetMenuDelegate(self);
+    	if (_busStopsMenuDelegate == null) {
+    		_busStopsMenuDelegate = new BusStopsMenuDelegate(self);
+		}
     	for (var i = 0; i < stops.size(); i++) {
 	        menu.addItem(
 	            new MenuItem(
@@ -57,8 +69,7 @@ class SgBusWidgetDelegate extends WatchUi.BehaviorDelegate {
 	            )
 	        );
         }
-    	WatchUi.popView(WatchUi.SLIDE_LEFT);
-        WatchUi.pushView(menu, menuDelegate, WatchUi.SLIDE_LEFT);
+        WatchUi.pushView(menu, _busStopsMenuDelegate, WatchUi.SLIDE_LEFT);
     }
     
     function registerTimerEvent(callback) {

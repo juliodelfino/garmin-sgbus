@@ -5,6 +5,7 @@ using Toybox.Time.Gregorian;
 
 class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
 
+	public var LINE_COUNT;
 	hidden var _idx = 0;
 	hidden var _viewCount = 1;
 	hidden var _views;
@@ -17,7 +18,8 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
     function initialize(mainDelegate) {
         BehaviorDelegate.initialize();
         _mainDelegate = mainDelegate;
-        _views = [new SgBusStopView(self), new SgBusStopView2(self, 1), new SgBusStopView2(self, 2)];
+        _views = [new SgBusStopView(self)];
+		LINE_COUNT = Util.conf["busStopLineCount"];
 	}
 	
 	function onShow() {
@@ -53,10 +55,9 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
             _buses = [];
 			var busCount = tmpBuses.size();
             for (var i = 0; i < busCount; i++) {
-           		_buses.add(Util.getBusStringInfo(tmpBuses[i]));
+           		_buses.add(Util.getMinifiedBusStringInfo(tmpBuses[i]));
             }
-			//TODO: replace this with a formula
-			_viewCount = busCount <= 4 ? 1 : (busCount <= 12 ? 2 : 3);
+			_viewCount = ((busCount - 1) / LINE_COUNT) + 1;
        }
        else {
            _buses = ["", "", "HTTP error [" + responseCode + "]"];
@@ -73,8 +74,8 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
 		if (_idx >= _viewCount) {
 			_idx = 0;
 		}
-    	WatchUi.popView(WatchUi.SLIDE_DOWN);
-        WatchUi.pushView(_views[_idx], self, WatchUi.SLIDE_DOWN);
+    	_views[0].refreshBusList(_idx);
+        return true;
 	}
 	
 	function onPreviousPage() {
@@ -82,8 +83,8 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
 		if (_idx < 0) {
 			_idx = _viewCount - 1;
 		}
-    	WatchUi.popView(WatchUi.SLIDE_UP);
-        WatchUi.pushView(_views[_idx], self, WatchUi.SLIDE_UP);
+    	_views[0].refreshBusList(_idx);
+        return true;
 	}
 	
 	function onSelect() {
@@ -95,7 +96,7 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
     	    var busNo = buses[i]["no"].toString();
 	        menu.addItem(
 	            new CheckboxMenuItem(
-	                "Save " + busNo, "",
+	                "Bus " + busNo, "Favorite this bus",
 	                busNo,
 	                false,
 	                {}
