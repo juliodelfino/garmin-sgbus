@@ -3,6 +3,8 @@
         <iq:products>
             <iq:product id="d2charlie"/>
             <iq:product id="d2delta"/>
+            <iq:product id="d2deltapx"/>
+            <iq:product id="d2deltas"/>
             <iq:product id="descentmk1"/>
             <iq:product id="fenix5"/>
             <iq:product id="fenix5plus"/>
@@ -17,15 +19,20 @@
             <iq:product id="fr645m"/>
             <iq:product id="fr935"/>
             <iq:product id="fr945"/>
+            <iq:product id="legacyherocaptainmarvel"/>
+            <iq:product id="legacyherofirstavenger"/>
             <iq:product id="marqathlete"/>
             <iq:product id="marqaviator"/>
             <iq:product id="marqcaptain"/>
             <iq:product id="marqdriver"/>
             <iq:product id="marqexpedition"/>
+            <iq:product id="venu"/>
             <iq:product id="vivoactive3"/>
             <iq:product id="vivoactive3d"/>
             <iq:product id="vivoactive3m"/>
             <iq:product id="vivoactive3mlte"/>
+            <iq:product id="vivoactive4"/>
+            <iq:product id="vivoactive4s"/>
         </iq:products>
         <iq:permissions>
             <iq:uses-permission id="Communications"/>

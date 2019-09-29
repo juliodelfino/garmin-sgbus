@@ -1,0 +1,34 @@
+<resources>
+	<layouts>
+		<layout id="BusStopLayout">
+		    <label id="timenow" x="center" y="top" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		    <drawable id="businfo_bg" />
+		    <!-- <drawable id="buspin" /> -->
+		    <bitmap id="pin0" x="120" y="50" filename="../drawables/pin.png" />
+		    <label id="busId" x="center" y="40" font="Gfx.FONT_XTINY" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		    <label id="busName" x="center" y="70" font="Gfx.FONT_SMALL" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		    <label id="bus0" x="55" y="132" font="Gfx.FONT_TINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="bus1" x="55" y="174" font="Gfx.FONT_TINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="bus2" x="55" y="216" font="Gfx.FONT_TINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="bus3" x="55" y="258" font="Gfx.FONT_TINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		    <label id="bus4" x="55" y="300" font="Gfx.FONT_TINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		</layout>
+		<layout id="FavoritesLayout">
+		    <label id="timenow" x="center" y="top" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		    <bitmap id="logo" x="center" y="40" filename="../drawables/bus-icon.png" />
+		    <bitmap id="pin0" x="35" y="110" filename="../drawables/pin.png" />
+		    <bitmap id="pin1" x="35" y="152" filename="../drawables/pin.png" />
+		    <bitmap id="pin2" x="35" y="194" filename="../drawables/pin.png" />
+		    <bitmap id="pin3" x="35" y="236" filename="../drawables/pin.png" />
+		    <bitmap id="pin4" x="35" y="278" filename="../drawables/pin.png" />
+		    <bitmap id="pin5" x="35" y="330" filename="../drawables/pin.png" />
+		    <label id="fave0" x="55" y="100" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="fave1" x="55" y="142" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="fave2" x="55" y="184" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="fave3" x="55" y="226" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		    <label id="fave4" x="55" y="268" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		    <label id="fave5" x="55" y="310" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		</layout>
+	</layouts>
+    <jsonData id="jsonConf">{"favoritesLineCount" : 6, "fontBusStop" : 2, "fontBus": 1, "busStopLineCount" : 5}</jsonData>
+</resources>

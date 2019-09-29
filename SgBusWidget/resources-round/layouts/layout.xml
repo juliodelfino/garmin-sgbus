@@ -4,7 +4,7 @@
 		    <label id="timenow" x="center" y="top" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 		    <drawable id="businfo_bg" />
 		    <!-- <drawable id="buspin" /> -->
-		    <bitmap id="pin0" x="75" y="45" filename="../drawables/pin.png" />
+		    <bitmap id="pin0" x="70" y="45" filename="../drawables/pin.png" />
 		    <label id="busId" x="center" y="40" font="Gfx.FONT_XTINY" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 		    <label id="busName" x="center" y="65" font="Gfx.FONT_SMALL" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 		    <label id="bus0" x="45" y="105" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
@@ -14,7 +14,7 @@
 		    <label id="bus4" x="45" y="185" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
 		</layout>
 		<layout id="FavoritesLayout">
-		    <label id="timenow" x="center" y="top" text="00:12:21" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		    <label id="timenow" x="center" y="top" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 		    <bitmap id="logo" x="center" y="30" filename="../drawables/bus-icon.png" />
 		    <bitmap id="pin0" x="20" y="85" filename="../drawables/pin.png" />
 		    <bitmap id="pin1" x="20" y="107" filename="../drawables/pin.png" />

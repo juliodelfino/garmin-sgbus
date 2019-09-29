@@ -21,7 +21,10 @@ class SgBusSaveMenuDelegate extends WatchUi.Menu2InputDelegate {
     	if (_busStop["savedBuses"] == null) {
     		_busStop["savedBuses"] = [];
 		}
-    	bookmarks[_busStop["id"]]["savedBuses"].add(item.getId());
+		var savedBuses = bookmarks[_busStop["id"]]["savedBuses"];
+		if (savedBuses.indexOf(item.getId()) < 0) { 
+    		savedBuses.add(item.getId());
+		}
     	app.setProperty("bookmarks", bookmarks);
     }
 }

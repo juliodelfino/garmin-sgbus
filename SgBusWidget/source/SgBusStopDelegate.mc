@@ -54,14 +54,19 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
             _busStop["buses"] = tmpBuses;
             _buses = [];
 			var busCount = tmpBuses.size();
-            for (var i = 0; i < busCount; i++) {
-           		_buses.add(Util.getMinifiedBusStringInfo(tmpBuses[i]));
-            }
-			_viewCount = ((busCount - 1) / LINE_COUNT) + 1;
+			if (busCount == 0) {
+				_buses = ["", "No more buses", "at this time."];
+			} else {
+	            for (var i = 0; i < busCount; i++) {
+	           		_buses.add(Util.getMinifiedBusStringInfo(tmpBuses[i]));
+	            }
+				_viewCount = ((busCount - 1) / LINE_COUNT) + 1;
+			}
        }
        else {
            _buses = ["", "", "HTTP error [" + responseCode + "]"];
        }
+       _idx = 0;
 	   WatchUi.requestUpdate();
     }
 	

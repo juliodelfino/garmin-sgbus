@@ -15,8 +15,11 @@ class SgBusWidgetApp extends Application.AppBase {
 
     // onStop() is called when your application is exiting
     function onStop(state) {
-    	_delegate.dispose();
-    	_delegate = null;
+    
+    	if (_delegate != null) {
+	    	_delegate.dispose();
+	    	_delegate = null;
+    	}
     }
 
     // Return the initial view of your application here

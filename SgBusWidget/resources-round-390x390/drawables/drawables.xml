@@ -1,7 +1,7 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
     <drawable-list id="businfo_bg">
-        <shape type="polygon" color="Gfx.COLOR_WHITE" points="[[0,35],[240,35],[240,100],[0,100]]" />
+        <shape type="polygon" color="Gfx.COLOR_WHITE" points="[[0,35],[440,35],[440,130],[0,130]]" />
     </drawable-list>
 	<bitmap id="pin" filename="pin.png" />
 </drawables>
