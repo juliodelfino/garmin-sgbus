@@ -8,15 +8,6 @@ class WebRequestHandler {
        var params = {                                              // set the parameters
               "lat" => loc[0], 
               "long" => loc[1],
-         //Use Vivo City bus stop
-         //     "lat" => 1.26552,
-         //     "long" => 103.82211,
-         //Use Ang Mo Kio Int for 15 buses
-         //     "lat" => 1.36968,
-         //     "long" => 103.84856,
-         //Use this for longest bus stop name
-         //     "lat" => 1.41557,
-         //     "long" => 103.80949
          	  "radius" => 3.5,
               "minify" => true
               
