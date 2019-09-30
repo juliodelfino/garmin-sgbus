@@ -2,6 +2,7 @@ using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.Time;
 
+(:glance)
 class FavoritesView extends WatchUi.View {
 
 	hidden var LINE_COUNT;

@@ -14,15 +14,15 @@ class FavoritesMenuDelegate extends WatchUi.Menu2InputDelegate {
 	
 	function onSelect(item) {	
 	
-		var id = item.getId().toString();
-		if (id.equals("manage")) {
+		var id = item.getId();
+		if (id.equals(:manage)) {
 			showManageFavoritesMenu();
 		}
-		else if (id.equals("favorites")) {
+		else if (id.equals(:favorites)) {
 			_mainDelegate.setFavoritesViewModelAsCurrent();
 			WatchUi.popView(WatchUi.SLIDE_LEFT);
 		}
-		else if (id.equals("nearby")) {
+		else if (id.equals(:nearby)) {
 			_mainDelegate.setNearbyViewModelAsCurrent();
 			WatchUi.popView(WatchUi.SLIDE_LEFT);
 		}
