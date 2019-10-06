@@ -8,7 +8,7 @@ class FavoritesView extends WatchUi.View {
 	hidden var LINE_COUNT;
 	hidden var _mainDelegate;
 	hidden var _lines;
-	hidden var pinLocX = 20;
+	hidden var pinLocX = -1;
 	
 	function initialize(mainDelegate) {
 		_mainDelegate = mainDelegate;
@@ -17,7 +17,7 @@ class FavoritesView extends WatchUi.View {
 		_mainDelegate.nearbyViewModel = new NearbyViewModel(self);
 		_mainDelegate.currentViewModel = _mainDelegate.favoritesViewModel;
 		
-		LINE_COUNT = Util.conf["favoritesLineCount"];
+		LINE_COUNT = SdkFix.conf["favoritesLineCount"];
 	}
 	
 	function getViewModel() {
@@ -57,10 +57,13 @@ class FavoritesView extends WatchUi.View {
     }
     
     function onReceiveMixedBuses(responseCode, data) {
-       if (responseCode != 200) {
-           View.findDrawableById("fave1").setText("HTTP error [" + responseCode + "]");
-       }
-	   WatchUi.requestUpdate();
+    	if (responseCode == -104) {
+    		refreshViewData(["Error: disconnected","","","","",""]);
+    	}
+        else if (responseCode != 200) {
+    		refreshViewData(["HTTP error [" + responseCode + "]","","","","",""]);
+        }
+	    WatchUi.requestUpdate();
     }
     
     function refreshViewData(lines) {
@@ -69,20 +72,34 @@ class FavoritesView extends WatchUi.View {
         	var busStopNo = lines[i].toNumber();
 			var isBusNo = busStopNo != null && busStopNo > 1000;
 			var pin = View.findDrawableById("pin"+i);
+			trySavePinLocX(pin);
         	pin.setLocation(isBusNo ? pinLocX : -20, pin.locY);
         	var field = View.findDrawableById("fave"+i);
         	field.setText(lines[i]);
-        	field.setFont(isBusNo ? Util.conf["fontBusStop"] : Util.conf["fontBus"]);
+        	field.setFont(isBusNo ? SdkFix.conf["fontBusStop"] : SdkFix.conf["fontBus"]);
        	}
+    }
+    
+    function trySavePinLocX(pin) {
+    	if (pinLocX < 0 && pin.locX > 0) {
+    		pinLocX = pin.locX;
+    	}
     }
     
 	function onReceiveNearbyBusStops(responseCode, data) {
        if (responseCode == 200) {
-       		_mainDelegate.showBusStopsMenu(data);
-		    _mainDelegate.currentViewModel = _mainDelegate.favoritesViewModel;	
+       		if (data instanceof Toybox.Lang.Array && data.size() > 0) {
+	       		_mainDelegate.showBusStopsMenu(data);
+			    _mainDelegate.currentViewModel = _mainDelegate.favoritesViewModel;	
+		    } else {
+           		getViewModel().refreshData(["No bus stops found."]);
+		    }
+       }
+       else if (responseCode == -104) {
+           getViewModel().refreshData(["Error: disconnected"]);
        }
        else {
-           getViewModel().refreshData("HTTP error [" + responseCode + "]");
+           getViewModel().refreshData(["HTTP error [" + responseCode + "]"]);
        }
 	   WatchUi.requestUpdate();
 	   

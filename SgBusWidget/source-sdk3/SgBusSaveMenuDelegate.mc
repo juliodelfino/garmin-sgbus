@@ -10,8 +10,7 @@ class SgBusSaveMenuDelegate extends WatchUi.Menu2InputDelegate {
     }
     
     function onSelect(item) {
-    	var app = Application.getApp();
-    	var bookmarks = app.getProperty("bookmarks");
+    	var bookmarks = Util.getValue("bookmarks");
     	if (bookmarks == null) {
     		bookmarks = {};
     	}
@@ -25,6 +24,6 @@ class SgBusSaveMenuDelegate extends WatchUi.Menu2InputDelegate {
 		if (savedBuses.indexOf(item.getId()) < 0) { 
     		savedBuses.add(item.getId());
 		}
-    	app.setProperty("bookmarks", bookmarks);
+    	Util.setValue("bookmarks", bookmarks);
     }
 }

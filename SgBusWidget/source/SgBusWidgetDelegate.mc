@@ -55,21 +55,17 @@ class SgBusWidgetDelegate extends WatchUi.BehaviorDelegate {
     }
     
     function showBusStopsMenu(stops) {
-    	var menu = new WatchUi.Menu2({:title=>"Bus Stops"});
+    	var menu = SdkFix.createBusStopsMenu(stops);
     	if (_busStopsMenuDelegate == null) {
     		_busStopsMenuDelegate = new BusStopsMenuDelegate(self);
 		}
-    	for (var i = 0; i < stops.size(); i++) {
-	        menu.addItem(
-	            new MenuItem(
-	                stops[i]["id"].toString(),
-	                stops[i]["name"].toString(),
-	                stops[i]["id"].toString(),
-	                {}
-	            )
-	        );
-        }
+        _busStopsMenuDelegate.setBusMap(Util.convertToBusMap(stops));
         WatchUi.pushView(menu, _busStopsMenuDelegate, WatchUi.SLIDE_LEFT);
+    }
+    
+    function searchBusStopsByKeyword(text) {
+    	setNearbyViewModelAsCurrent();
+    	nearbyViewModel.searchBusStopsByKeyword(text);
     }
     
     function registerTimerEvent(callback) {

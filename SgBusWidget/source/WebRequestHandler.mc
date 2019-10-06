@@ -2,13 +2,15 @@ using Toybox.Communications;
 
 class WebRequestHandler {
 
-	static function makeRequestForBusStops(loc, onReceiveBusStops) {
+	static function makeRequestForBusStops(loc, keyword, onReceiveBusStops) {
        var url = "https://sagabus.herokuapp.com/busstop";                         // set the url
+	   var radius = Util.getRadius() / 100.0;
 
        var params = {                                              // set the parameters
               "lat" => loc[0], 
               "long" => loc[1],
-         	  "radius" => 3.5,
+              "keyword" => keyword,
+         	  "radius" => radius,
               "minify" => true
               
        };

@@ -26,7 +26,8 @@ class SgBusStopView extends WatchUi.View {
     // state of this View here. This includes freeing resources from
     // memory.
 	function onHide() {
-		_delegate.onHide();	
+		_delegate.onHide();
+		_idxStart = 0;	
 	}
 
     // Load your resources here

@@ -19,7 +19,7 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
         BehaviorDelegate.initialize();
         _mainDelegate = mainDelegate;
         _views = [new SgBusStopView(self)];
-		LINE_COUNT = Util.conf["busStopLineCount"];
+		LINE_COUNT = SdkFix.conf["busStopLineCount"];
 	}
 	
 	function onShow() {
@@ -35,7 +35,8 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
 	}
 	
 	function setBusStop(busStop) {
-		_busStop = busStop;       
+		_busStop = busStop;   
+        _buses = ["", "", "Getting buses..."];    
 	    WebRequestHandler.makeRequestForBuses(busStop["id"], method(:onReceiveBuses));
 	}
 	
@@ -62,6 +63,9 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
 	            }
 				_viewCount = ((busCount - 1) / LINE_COUNT) + 1;
 			}
+       }
+       else if (responseCode == -104){
+           _buses = ["", "", "Error: disconnected"];
        }
        else {
            _buses = ["", "", "HTTP error [" + responseCode + "]"];
@@ -94,20 +98,9 @@ class SgBusStopDelegate extends WatchUi.BehaviorDelegate {
 	
 	function onSelect() {
 		
-    	var menu = new WatchUi.CheckboxMenu({:title=>"Buses in " + _busStop["id"]});
+    	var menu = SdkFix.createBusesMenu(_busStop);
     	var delegate = new SgBusSaveMenuDelegate(_busStop);
-    	var buses = _busStop["buses"];
-    	for (var i = 0; i < buses.size(); i++) {
-    	    var busNo = buses[i]["no"].toString();
-	        menu.addItem(
-	            new CheckboxMenuItem(
-	                "Bus " + busNo, "Favorite this bus",
-	                busNo,
-	                false,
-	                {}
-	            )
-	        );
-        }
+        
         WatchUi.pushView(menu, delegate, WatchUi.SLIDE_UP);
 	}
 	

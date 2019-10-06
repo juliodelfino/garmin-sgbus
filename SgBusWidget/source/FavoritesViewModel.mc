@@ -12,13 +12,12 @@ class FavoritesViewModel {
 	
 	function initialize(view) {
 		_view = view;
-		LINE_COUNT = Util.conf["favoritesLineCount"];
+		LINE_COUNT = SdkFix.conf["favoritesLineCount"];
 	}
     
     function timerCallback() {
         if (_cnt >= 15) {
-        	var app = Application.getApp();
-	    	var bookmarks = app.getProperty("bookmarks");
+	    	var bookmarks = Util.getValue("bookmarks");
 	    	if (bookmarks != null) {
 	    	    var ids = "";
 		    	var busStops = bookmarks.values();
@@ -64,9 +63,8 @@ class FavoritesViewModel {
     
     function refreshData(busTimesData) {
     	_busTimes = busTimesData;
-		_lines = [];	
-    	var app = Application.getApp();
-    	var bookmarks = app.getProperty("bookmarks");
+		_lines = [];
+    	var bookmarks = Util.getValue("bookmarks");
     	if (bookmarks != null) {
     		var busStops = bookmarks.values();
     		for (var i = 0; i < busStops.size(); i++) {

@@ -1,9 +1,12 @@
 using Toybox.WatchUi;
 using Toybox.Lang;
 using Toybox.System;
+using Toybox.Application;
 
 class Util {
 
+	static var appRef = Application.getApp();
+	
     static function getBusStringInfo(bus) {
         var next = bus["next"] != null ? computeArrivalMins(bus["next"]["duration_ms"]) : null;
         var next2 = bus["next2"] != null ? computeArrivalMins(bus["next2"]["duration_ms"]) : null;
@@ -44,5 +47,32 @@ class Util {
 		return Lang.format("$1$:$2$ $3$", [hour, min, ampm]); 
 	}
 	
-	public static var conf = WatchUi.loadResource(Rez.JsonData.jsonConf);
+	static function convertToBusMap(stops) {
+		var busMap = {};
+    	for (var i = 0; i < stops.size(); i++) {
+    		var busId = stops[i]["id"];
+    		var busName = stops[i]["name"];
+    		busMap[busId] = busName;
+        }
+        return busMap;
+	}
+	
+	
+	static function getValue(key) {
+    	return appRef.getProperty(key);
+	}
+	
+	static function setValue(key, newVal) {
+    	appRef.setProperty(key, newVal);
+	}
+	
+	static function getRadius() {
+		var radius = getValue("search_radius");
+		return radius == null ? 350 : radius.toNumber();
+	}
+	
+	static function setRadius(val) {
+		setValue("search_radius", val);
+	}
+	
 }

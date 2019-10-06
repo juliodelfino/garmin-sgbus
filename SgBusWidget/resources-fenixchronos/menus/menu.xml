@@ -1,0 +1,7 @@
+<menu id="MainMenu" title="@Strings.AppName">
+    <menu-item id="nearby" label="Nearby bus stops"></menu-item>
+    <menu-item id="favorites" label="Show saved buses"></menu-item>
+    <menu-item id="manage" label="Remove favorites"></menu-item>
+    <menu-item id="search" label="Search bus stop"></menu-item>
+    <menu-item id="radius" label="Set nearby radius"></menu-item>
+</menu>

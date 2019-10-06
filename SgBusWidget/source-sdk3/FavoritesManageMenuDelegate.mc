@@ -11,15 +11,14 @@ class FavoritesManageMenuDelegate extends WatchUi.Menu2InputDelegate {
         _itemsToRemove = {};
 	}
 	
-	function onSelect(item) {	
+	function onSelect(item) {
 
 		_itemsToRemove[item.getId()] = item.isChecked();
 	}
 	
 	function onDone() {
 	
-    	var app = Application.getApp();
-    	var bookmarks = app.getProperty("bookmarks");
+    	var bookmarks = Util.getValue("bookmarks");
 		var keys = _itemsToRemove.keys();
 		for (var i = 0; i < keys.size(); i++) {
 		
@@ -33,7 +32,7 @@ class FavoritesManageMenuDelegate extends WatchUi.Menu2InputDelegate {
 				}
 			}
 		}
-		app.setProperty("bookmarks", bookmarks);
+		Util.setValue("bookmarks", bookmarks);
 		Menu2InputDelegate.onDone();
 	}
 }
