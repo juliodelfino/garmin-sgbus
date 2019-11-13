@@ -51,7 +51,9 @@ class SgBusStopView extends WatchUi.View {
         View.findDrawableById("busName").setText(busStop["name"] + "");
         var busIdx = _idxStart * _delegate.LINE_COUNT;
         for (var i = busIdx, v = 0; v < _delegate.LINE_COUNT; i++, v++) {
-        	View.findDrawableById("bus"+v).setText(i < buses.size() ? buses[i] : "");
+            var vBus = View.findDrawableById("bus"+v);
+        	vBus.setText(i < buses.size() ? buses[i] : "");
+        	vBus.setFont(SdkFix.conf["fontBus"]);
        	}
     }
     
