@@ -22,7 +22,7 @@ class NearbyViewModel {
 	    visible = true;
 	    if (_searchKeyword != null) {
 	    	visible = false;
-		    refreshData(["Getting bus stops with", "keyword: " + _searchKeyword ]);
+		    refreshData(["Getting bus stops", "with keyword: ", "" + _searchKeyword ]);
 	    	WebRequestHandler.makeRequestForBusStops([0,0], _searchKeyword, method(:onReceiveBusStops));
 	    	  	
 	    } else if (_gpsPosition == null) {

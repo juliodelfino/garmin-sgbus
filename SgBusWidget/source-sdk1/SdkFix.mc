@@ -4,7 +4,7 @@ using Toybox.System;
 
 class SdkFix {
 
-	public static var conf = {"favoritesLineCount" => 6, "fontBusStop" => 1, "fontBus"=> 0, "busStopLineCount" => 5};
+	public static var conf = {"favoritesLineCount" => 6, "fontBusStop" => 1, "fontBus"=> 2, "busStopLineCount" => 5};
 	
     static function createBusesMenu(busStop) {
 		var menu = new WatchUi.Menu();

@@ -7,11 +7,11 @@
 		    <bitmap id="pin0" x="70" y="35" filename="../drawables/pin.png" />
 		    <label id="busId" x="center" y="30" font="Gfx.FONT_XTINY" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 		    <label id="busName" x="center" y="50" font="Gfx.FONT_SMALL" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-		    <label id="bus0" x="45" y="80" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
-		    <label id="bus1" x="45" y="100" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
-		    <label id="bus2" x="45" y="120" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
-		    <label id="bus3" x="45" y="140" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
-		    <label id="bus4" x="45" y="160" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		    <label id="bus0" x="45" y="80" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="bus1" x="45" y="100" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="bus2" x="45" y="120" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="bus3" x="45" y="140" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		    <label id="bus4" x="45" y="160" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
 		</layout>
 		<layout id="FavoritesLayout">
 		    <label id="timenow" x="center" y="top" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
@@ -22,12 +22,12 @@
 		    <bitmap id="pin3" x="20" y="125" filename="../drawables/pin.png" />
 		    <bitmap id="pin4" x="20" y="145" filename="../drawables/pin.png" />
 		    <bitmap id="pin5" x="20" y="165" filename="../drawables/pin.png" />
-		    <label id="fave0" x="40" y="60" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
-		    <label id="fave1" x="40" y="80" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
-		    <label id="fave2" x="40" y="100" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
-		    <label id="fave3" x="40" y="120" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
-		    <label id="fave4" x="40" y="140" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
-		    <label id="fave5" x="40" y="160" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		    <label id="fave0" x="40" y="60" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="fave1" x="40" y="80" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="fave2" x="40" y="100" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+		    <label id="fave3" x="40" y="120" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		    <label id="fave4" x="40" y="140" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
+		    <label id="fave5" x="40" y="160" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" /> 
 		</layout>
 	</layouts>
 </resources>

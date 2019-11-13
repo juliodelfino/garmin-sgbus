@@ -85,7 +85,7 @@ class FavoritesViewModel {
     		}
     	}
     	if (_lines.size() == 0) {
-    		_lines.addAll(["No saved buses yet.", "Press START to search", "for nearby buses", "and save them."]);
+    		_lines.addAll(["No saved buses yet.", "Press START to", "search for", "nearby buses and", "save them."]);
     	}
     	for (var i = _lines.size(); i < LINE_COUNT; i++) {
     		_lines.add("");
